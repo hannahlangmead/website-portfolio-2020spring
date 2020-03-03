@@ -1,0 +1,13 @@
+h1{
+  text-align: center;
+  block-size:500px;
+color:orange;
+font-size: 200px;
+font-family:Courier;
+}
+.header{
+    background-image: url('DOGS/winniegood.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
