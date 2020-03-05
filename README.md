@@ -71,3 +71,7 @@ If you find yourself coming up on proposal day and you're not sure what to propo
 3. _Electrate Autobiography_. My colleague Stephen Quigley has put together a guided exercise in reflecting on your networks of influence that functions as a kind of behind-the-scenes hands-on-code version of an Adobe Spark. Template-style writing prompts are hidden in comments on the html, and the CSS is fully customizable. Have a look at [github.com/sjquigley/Electrate-Fuego](https://github.com/sjquigley/Electrate-Fuego) for more information! NB: I may fork this myself and suggest some modifications - e.g. he has some image display parameters hard-coded in the HTML that I think belongs in the CSS – so let me know if you're leaning this way!
 
 And if your parachute is malfunctioning (i.e. you'd like even more specific direction), just let me know!
+
+
+ASSETS:
+paw prints by zidney from the Noun Project
