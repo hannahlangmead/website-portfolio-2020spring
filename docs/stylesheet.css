@@ -1,13 +1,79 @@
 h1{
   text-align: center;
-  block-size:500px;
-color:orange;
-font-size: 200px;
-font-family:Courier;
+  block-size:570px;
+  color:orange;
+  font-size: 200px;
+  font-family:Courier;
+  margin-top:0px;
+  margin-bottom:20px;
+}
+h2{
+  text-align: center;
+  color: 	#a1e66c;
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Courier;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+p{
+  font-size: 20px;
 }
 .header{
-    background-image: url('DOGS/winniegood.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  background: url(DOGS/winnie.jpg)
+no-repeat center center fixed;
+-webkit-background-size:
+cover;
+-moz-background-size:
+cover;
+-o-background-size:
+cover;
+background-size:
+cover;
+}
+
+.tabs
+{
+  align: left;
+  position: relative;
+	clear: both;
+}
+
+.tabs .tab
+{
+	float: left;
+}
+
+.tabs .tab .content
+{
+	position:absolute;
+	background-color: white;
+	left: 0px;
+	width: 100%;
+	border: none;
+}
+
+.checkboxtab
+{
+	display: none;
+}
+
+.tab label
+{
+	margin-right: 10px;
+}
+
+.checkboxtab:checked ~ label
+{
+	color: orange;
+	border: none;
+}
+
+.checkboxtab:checked ~ .content
+{
+	z-index: 1;
+}
