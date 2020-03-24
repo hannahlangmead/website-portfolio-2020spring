@@ -8,23 +8,32 @@ h1{
   margin-bottom:20px;
 }
 h2{
-  text-align: center;
-  color: 	#a1e66c;
-  font-size: 100px;
+  text-align: left;
+  color: 	white;
+  font-size: 30px;
   margin-top: 10px;
   margin-bottom: 20px;
   font-family: Courier;
 }
-h3{
+a:link{
+
+  background-color: #a1e66c;
+  color: white;
   text-align: center;
-  font-size: 30px;
-  font-weight: normal;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+
 }
-p{
-  font-size: 20px;
+a:visited{
+  color: white;
 }
+a:hover{
+  color: black;
+}
+
 .header{
-  background: url(DOGS/winnie.jpg)
+background: url(DOGS/winnie.jpg)
 no-repeat center center fixed;
 -webkit-background-size:
 cover;
@@ -36,44 +45,9 @@ background-size:
 cover;
 }
 
-.tabs
-{
-  align: left;
-  position: relative;
-	clear: both;
-}
-
-.tabs .tab
-{
-	float: left;
-}
-
-.tabs .tab .content
-{
-	position:absolute;
-	background-color: white;
-	left: 0px;
-	width: 100%;
-	border: none;
-}
-
-.checkboxtab
-{
-	display: none;
-}
-
-.tab label
-{
-	margin-right: 10px;
-}
-
-.checkboxtab:checked ~ label
-{
-	color: orange;
-	border: none;
-}
-
-.checkboxtab:checked ~ .content
-{
-	z-index: 1;
+.container{
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 150px;
+  grid-template-rows: repeat(3, minmax(100px, max-content));
+  grid-gap: 10px;
 }
