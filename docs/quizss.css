@@ -1,0 +1,39 @@
+body{
+  background-color: #F3E2A9;
+}
+
+h1{
+  color:orange;
+  block-size:570px;
+  font-size: 200px;
+  font-family:Courier;
+  text-align:center;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  background: url(DOGS/mugsy2.png)
+  no-repeat center center fixed;
+  -webkit-background-size:
+  cover;
+  -moz-background-size:
+  cover;
+  -o-background-size:
+  cover;
+  background-size:
+  cover;
+}
+p{
+  color:black;
+  font-size: 30px;
+  font-family:Courier;
+  text-align:center;
+}
+a:link{
+  color:orange;
+  text-decoration:underline;
+}
+a:visited{
+  color:orange;
+}
+a:hover{
+  color:#a1e66c;
+}
