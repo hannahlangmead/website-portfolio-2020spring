@@ -1,5 +1,5 @@
 body{
-  background-color: #F3E2A9;
+    background-color: #F3E2A9;
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
   text-align:center;
   margin-top: 0px;
   margin-bottom: 10px;
-  background: url(DOGS/mugsy2.png)
+  background: url(DOGS/millie2.jpg)
   no-repeat center center fixed;
   -webkit-background-size:
   cover;
@@ -20,6 +20,20 @@ h1{
   cover;
   background-size:
   cover;
+}
+p{
+  color:black;
+  font-size: 20px;
+  text-align:center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+h2{
+  font-size: 50px;
+  color:orange;
+  text-align: center;
+  font-family: courier;
 }
 nav{
   text-align: left;
@@ -58,10 +72,9 @@ a:visited{
 a:hover{
   color: black;
 }
-p{
-  margin-top: 100px;
+footer{
+  margin-top: 200px;
   color:black;
-  font-size: 30px;
-  font-family:Courier;
-  text-align:center;
+  font-size: 20px;
+  text-align:left;
 }
