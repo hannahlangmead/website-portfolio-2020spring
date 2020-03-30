@@ -6,3 +6,4 @@ All of my documents are in the 'docs' folder. Open 'index.html' in a browser to 
 
 
 Care info from https://www.aspca.org/pet-care/dog-care/general-dog-care
+Paw image "paw prints" by zidney from thenounproject.com
