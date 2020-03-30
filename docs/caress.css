@@ -58,7 +58,7 @@ nav li{
   margin: 0 50px;
 }
 
-a{
+a.navlink{
   background-color: #a1e66c;
   color: white;
   text-align: center;
@@ -66,10 +66,10 @@ a{
   padding: 20px;
   display: inline-block;
 }
-a:visited{
+a.navlink:visited{
   color: white;
 }
-a:hover{
+a.navlink:hover{
   color: black;
 }
 footer{
@@ -77,4 +77,15 @@ footer{
   color:black;
   font-size: 20px;
   text-align:left;
+}
+a.reglink{
+  color: black;
+  text-decoration: underline;
+}
+a.reglink:hover{
+  color:#a1e66c;
+}
+img{
+  height: 30px;
+  width: 30px;
 }

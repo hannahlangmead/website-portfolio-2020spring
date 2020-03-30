@@ -44,7 +44,7 @@ nav li{
   margin: 0 50px;
 }
 
-a{
+a.navlink{
   background-color: #a1e66c;
   color: white;
   text-align: center;
@@ -52,16 +52,30 @@ a{
   padding: 20px;
   display: inline-block;
 }
-a:visited{
+a.navlink:visited{
   color: white;
 }
-a:hover{
+a.navlink:hover{
   color: black;
 }
 p{
-  padding: 80px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
   color:black;
   font-size: 30px;
   font-family:Courier;
   text-align:center;
+}
+a.reglink{
+  color: black;
+  text-decoration: underline;
+}
+a.reglink:hover{
+  color:orange;
+}
+img{
+  height: 30px;
+  width: 30px;
 }

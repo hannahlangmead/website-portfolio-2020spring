@@ -33,6 +33,7 @@ h3{
   font-size: 30px;
   text-align: center;
   padding: 30px;
+  font-weight: normal;
 }
 nav{
   text-align: left;
@@ -57,7 +58,7 @@ nav li{
   margin: 0 50px;
 }
 
-a{
+a.navlink{
   background-color: #a1e66c;
   color: white;
   text-align: center;
@@ -65,15 +66,18 @@ a{
   padding: 20px;
   display: inline-block;
 }
-a:visited{
+a.navlink:visited{
   color: white;
 }
-a:hover{
+a.navlink:hover{
   color: black;
 }
 p{
   color:black;
-  font-family: courier;
   font-size: 20px;
   text-align: center;
+}
+img.paw{
+    height: 30px;
+    width: 30px;
 }

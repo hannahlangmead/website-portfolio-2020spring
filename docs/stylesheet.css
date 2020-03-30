@@ -23,7 +23,7 @@ nav{
   justify-content: center;
 }
 
-a{
+a.navlink{
   background-color: #a1e66c;
   color: white;
   text-align: center;
@@ -31,10 +31,10 @@ a{
   padding: 20px;
   display: inline-block;
 }
-a:visited{
+a.navlink:visited{
   color: white;
 }
-a:hover{
+a.navlink:hover{
   color: black;
 }
 
@@ -73,6 +73,10 @@ p{
   text-align: center;
   padding-left: 60px;
   padding-right: 60px;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 60px;
+}
+img{
+  height: 30px;
+  width: 30px;
 }
